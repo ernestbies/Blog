@@ -30,6 +30,12 @@ process.on('SIGINT', () => {
   });
 });
 
+
+app.get('/*', function (req, res) {
+  res.sendFile(__dirname + '/public/index.html');
+});
+
+
 routes(app);
 app.listen(config.port, () => {
   console.info(`Server is running at ${config.port}`)
