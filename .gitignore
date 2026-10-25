@@ -25,6 +25,7 @@ modules/.vscode
 .nvimrc
 
 # Don't check in secret files
+.env
 *secret.js
 
 # Ignore npm/yarn debug log
