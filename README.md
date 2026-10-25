@@ -1,8 +1,9 @@
 # Blog
 
-> **Educational project:** This is a university assignment created for learning purposes.
-> That is why the compiled Angular frontend is committed directly in `public/` — the
-> Angular sources are not part of this repository.
+> **Educational project:** This project comes from my university days — it was written as a
+> university assignment, purely for learning purposes. That is why the compiled Angular
+> frontend is committed directly in `public/` — the Angular sources are not part of this
+> repository. The stack (Babel 6, Mongoose 5) reflects the era it was written in.
 
 A small blog application: a Node.js/Express + MongoDB backend that serves a prebuilt
 Angular frontend from the same server. It is set up to run **locally** — the frontend
