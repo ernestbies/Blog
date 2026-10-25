@@ -31,9 +31,6 @@ cp .env.example .env
 npm start
 ```
 
-- UI: **http://localhost:3000**
-- API: **http://localhost:3000/api/...**
-
 For auto-restart during development (`nodemon` is in `devDependencies`):
 
 ```bash
